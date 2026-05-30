@@ -12,3 +12,5 @@ let perimetro = 2 * (base + altura);
 // Mostramos resultados
 console.log("Área del terreno:", area);
 console.log("Perímetro del terreno:", perimetro);
+
+//
