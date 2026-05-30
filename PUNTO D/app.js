@@ -67,6 +67,29 @@ alert("Producción de la fábrica:\n" +
       "Cajas llenas (12 piezas c/u): " + cajasLlenas + "\n" +
       "Piezas sobrantes: " + piezasSobrantes);
 
+/*Ejercicio 4: Estadísticas de calificaciones Un aprendiz obtuvo las siguientes 4 notas: 
+4.5, 3.8, 2.9 y 4.0. Se debe calcular:
+• La suma de las 4 notas.
+• El promedio.
+• El resultado de la siguiente operación:
+(nota1 + nota2) * (nota3 + nota4) / 2;
+Requerimiento:
+• Declara cada nota como constante.
+• Usa variables para la suma, el promedio y el resultado de la expresión. */
+
+const NOTA1 = 4.5;
+const NOTA2 = 3.8;
+const NOTA3 = 2.9;
+const NOTA4 = 4.0;
+
+let suma = NOTA1 + NOTA2 + NOTA3 + NOTA4;
+let promedio = suma / 4;
+let resultadoExpresion = (NOTA1 + NOTA2) * (NOTA3 + NOTA4) / 2;
+
+alert("Estadísticas de calificaciones:\n" +
+      "Suma de notas: " + suma.toFixed(2) + "\n" +
+      "Promedio: " + promedio.toFixed(2) + "\n" +
+      "Resultado de la expresión: " + resultadoExpresion.toFixed(2));
 
 
 
