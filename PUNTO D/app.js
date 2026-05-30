@@ -45,6 +45,28 @@ alert("Conversión de tiempo:\n" +
       horas + " horas\n" +
       dias + " días");
 
+/* Ejercicio 3: Producción de una fábrica Una máquina produce 250 piezas por hora. 
+En 8 horas de trabajo se necesita calcular:
+• El total de piezas fabricadas.
+• Cuántas cajas de 12 piezas se llenan.
+• Cuántas piezas quedan sueltas.
+Requerimiento:
+• Usa constantes para la producción por hora, las horas trabajadas y la capacidad de las cajas.
+• Usa variables para el total de piezas, cajas llenas y piezas sobrantes.*/
+
+const PRODUCCION_POR_HORA = 250;
+const HORAS_TRABAJADAS = 8;
+const CAPACIDAD_CAJA = 12;
+
+let totalPiezas = PRODUCCION_POR_HORA * HORAS_TRABAJADAS;
+let cajasLlenas = Math.floor(totalPiezas / CAPACIDAD_CAJA);
+let piezasSobrantes = totalPiezas % CAPACIDAD_CAJA;
+
+alert("Producción de la fábrica:\n" +
+      "Total de piezas fabricadas: " + totalPiezas + "\n" +
+      "Cajas llenas (12 piezas c/u): " + cajasLlenas + "\n" +
+      "Piezas sobrantes: " + piezasSobrantes);
+
 
 
 
