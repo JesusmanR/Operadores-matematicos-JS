@@ -13,4 +13,13 @@ let perimetro = 2 * (base + altura);
 console.log("Área del terreno:", area);
 console.log("Perímetro del terreno:", perimetro);
 
+// Ejercicio 2: Promedio de notas
+const nota1 = 4.5;
+const nota2 = 3.8;
+const nota3 = 2.9;
+
+let promedio = (nota1 + nota2 + nota3) / 3;
+
+console.log("Promedio del estudiante:", promedio);
+
 //
