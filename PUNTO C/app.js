@@ -22,4 +22,11 @@ let promedio = (nota1 + nota2 + nota3) / 3;
 
 console.log("Promedio del estudiante:", promedio);
 
-//
+// Ejercicio 3: Contador de visitas
+let visitas = 100; // valor inicial
+
+visitas += 25; // se suman 25
+visitas -= 10; // se restan 10
+visitas *= 2;  // se duplican
+
+console.log("Visitas finales:", visitas);
