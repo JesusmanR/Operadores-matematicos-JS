@@ -42,3 +42,5 @@ let resultado = (20 + 10) / 5 + 3 * 2 - 4;
 // 12 - 4 = 8
 
 console.log("Resultado de la operación:", resultado);
+
+//
