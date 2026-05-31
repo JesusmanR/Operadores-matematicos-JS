@@ -30,3 +30,17 @@ visitas -= 10; // se restan 10
 visitas *= 2;  // se duplican
 
 console.log("Visitas finales:", visitas);
+
+// Ejercicio 4: Operación misteriosa
+let resultado = (20 + 10) / 5 + 3 * 2 - 4;
+
+// Paso a paso:
+// (20+10) = 30
+// 30 / 5 = 6
+// 3 * 2 = 6
+// 6 + 6 = 12
+// 12 - 4 = 8
+
+console.log("Resultado de la operación:", resultado);
+
+//
